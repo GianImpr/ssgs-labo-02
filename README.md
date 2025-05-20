@@ -23,8 +23,10 @@ Buona analisi e buon lavoro!
 
 ## Installazione e Avvio
 
-*(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test).*
-
----
-
-*Suggerimento: Presta particolare attenzione ai requisiti dell'Esercizio 1 del laboratorio per completare e correggere questo README e gli altri file di configurazione.*
+L'installazione del progetto può essere svolta in diversi modi:
+* Utilizzare `git clone`:
+  1. Nella sezione `Code` di questa repository, cliccare sul pulsante verde `Code` e copiare l'URL;
+  2. Aprire il terminale ed utilizzare il comando `git clone`, seguito dall'URL appena copiato.
+* Scaricare il progetto come `.zip`:
+  1. Nella sezione `Code` di questa repository, cliccare sul pulsante verde `Code` e poi sul pulsante `Download ZIP`;
+  2. Estrarre il file `.zip` appena scaricato in una cartella a scelta.
