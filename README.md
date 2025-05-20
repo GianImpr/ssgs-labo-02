@@ -15,7 +15,7 @@ Il progetto può essere installato ed avviato solamente se sono installate le se
 * `git` (solo per l'installazione 1).
 
 ## Installazione e Avvio
-# Installazione
+### Installazione
 L'installazione del progetto può essere svolta in diversi modi:
 * Utilizzare `git clone`:
   1. Nella sezione `Code` di questa repository, cliccare sul pulsante verde `Code` e copiare l'URL;
@@ -23,7 +23,7 @@ L'installazione del progetto può essere svolta in diversi modi:
 * Scaricare il progetto come `.zip`:
   1. Nella sezione `Code` di questa repository, cliccare sul pulsante verde `Code` e poi sul pulsante `Download ZIP`;
   2. Estrarre il file `.zip` appena scaricato in una cartella a scelta.
-# Avvio
+### Avvio
 Per avviare il progetto, seguire i seguenti passaggi:
 1. dirigersi nella cartella in cui è stato scaricato il progetto, che contiene il file `index.js`;
 2. Per eseguire il programma, utilizzare il seguente comando su terminale: `node index.js <numero_funzione> <stringa_input> [parametro_aggiuntivo]`, dove:
