@@ -2,29 +2,37 @@
 
 Questo progetto fornisce una base per una semplice Command-Line Interface (CLI) Node.js che offre diverse utilità per la manipolazione di stringhe.
 
-## Nota Importante per lo Studente - Setup Iniziale del Progetto
-
-Benvenuto/a a `labo-string`!
-
-Questo repository è un **template di partenza** per il tuo laboratorio valutato. Come avrai modo di leggere nelle istruzioni del laboratorio, una parte fondamentale del tuo lavoro iniziale (Esercizio 1) consisterà nell'analizzare attentamente la struttura e la configurazione corrente di questo progetto.
-
-**Potresti notare che alcuni aspetti della configurazione iniziale – inclusa questa stessa documentazione (`README.md`), il file `package.json` e la gestione dei file da ignorare (`.gitignore`) – sono stati volutamente lasciati incompleti o potrebbero non seguire tutte le best practice per un progetto Node.js.**
-
-Il tuo primo compito sarà proprio quello di identificare queste aree di miglioramento e apportare le necessarie correzioni e completamenti, come dettagliato nelle istruzioni del laboratorio, per portare il progetto a uno standard qualitativo superiore.
-
-Buona analisi e buon lavoro!
-
-## Funzionalità Principali (Previste)
+## Funzionalità Principali
 
 * Inversione di una stringa.
 * Verifica se una stringa è palindroma.
 * Troncamento di una stringa a una lunghezza massima specificata.
 * Conteggio delle occorrenze di ciascun carattere in una stringa.
 
+## Requisiti
+Il progetto può essere installato ed avviato solamente se sono installate le seguenti dipendenze:
+* `node.js`;
+* `git` (solo per l'installazione 1).
+
 ## Installazione e Avvio
+### Installazione
+L'installazione del progetto può essere svolta in diversi modi:
+* Utilizzare `git clone`:
+  1. Nella sezione `Code` di questa repository, cliccare sul pulsante verde `Code` e copiare l'URL;
+  2. Aprire il terminale ed utilizzare il comando `git clone`, seguito dall'URL appena copiato.
+* Scaricare il progetto come `.zip`:
+  1. Nella sezione `Code` di questa repository, cliccare sul pulsante verde `Code` e poi sul pulsante `Download ZIP`;
+  2. Estrarre il file `.zip` appena scaricato in una cartella a scelta.
+### Avvio
+Per avviare il progetto, seguire i seguenti passaggi:
+1. dirigersi nella cartella in cui è stato scaricato il progetto, che contiene il file `index.js`;
+2. Per eseguire il programma, utilizzare il seguente comando su terminale: `node index.js <numero_funzione> <stringa_input> [parametro_aggiuntivo]`, dove:
+   * `<numero_funzione>` è una delle quattro funzioni che si vuole usare, che sono:
+     1. Inversione di una stringa;
+     2. Verifica se una stringa è palindroma;
+     3. Troncamento di una stringa a una lunghezza massima specificata;
+     4. Conteggio delle occorrenze di ciascun carattere in una stringa.
+   * `<stringa_input>` è la stringa su cui si applica la funzione. Se c'è bisogno di utilizzare una stringa che contiene blankspace, allora racchiuderla tra apici singoli (es. `'Che forza'`);
+   * `[parametro_aggiuntivo]` è un numero intero che serve per dare un dettaglio extra, se necessario per la funzione. (es. la funzione 3 richiede il parametro aggiuntivo per determinare fino a che posizione troncare la stringa). Se non è necessario può essere omesso.
 
-*(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test).*
-
----
-
-*Suggerimento: Presta particolare attenzione ai requisiti dell'Esercizio 1 del laboratorio per completare e correggere questo README e gli altri file di configurazione.*
+  Dopo l'esecuzione di una funzione, il programma termina. Per riutilizzarlo con un'altra stringa, ripetere solo il passaggio 2 (se si è rimasti nella stessa directory).
