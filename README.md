@@ -21,6 +21,11 @@ Buona analisi e buon lavoro!
 * Troncamento di una stringa a una lunghezza massima specificata.
 * Conteggio delle occorrenze di ciascun carattere in una stringa.
 
+## Requisiti
+Il progetto può essere installato ed avviato solamente se sono installate le seguenti dipendenze:
+* `node.js`;
+* `git` (solo per l'installazione 1).
+
 ## Installazione e Avvio
 
 L'installazione del progetto può essere svolta in diversi modi:
