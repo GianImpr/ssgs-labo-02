@@ -21,6 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: .
 
   test:
     name: Execute tests
@@ -29,6 +30,7 @@ jobs:
     steps:
       - name: Run tests with coverage
         run: npm test
+        working-directory: .
 
 
   upload:
